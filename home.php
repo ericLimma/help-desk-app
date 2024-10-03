@@ -1,11 +1,11 @@
 <?php
 require_once('includes/validador-acesso.php');
-require_once('includes/head.php');
+require_once('components/head.php');
 ?>
 
 <body>
     <?php
-    include('includes/header.php');
+    include('components/header.php');
     ?>
     <main class="main">
         <img class="img" src="assets/img/online-suport-il.png" alt="ilustração suporte online">
@@ -29,7 +29,7 @@ require_once('includes/head.php');
             </div>
         </div>
     </main>
-    <script src="assets/js/logout.js"></script>
+    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
 </body>

@@ -4,7 +4,7 @@
 <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Help Desk - Login</title>
+        <title>Help Desk</title>
 
         <!-- Google Fonts - Comfortaa -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16,6 +16,6 @@
 
         <script src="https://kit.fontawesome.com/0740295107.js" crossorigin="anonymous"></script>
         <link rel="shortcut icon" href="assets/favicon/online-suport.png" type="image/x-icon">
-        <link rel="stylesheet" href="assets/css/styles-app.css">
-
+        <link rel="stylesheet" href="assets/css/styles.css">
+        
 </head>

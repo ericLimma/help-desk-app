@@ -8,14 +8,12 @@
         if (isset($_SESSION['usuario'])) { ?>
             <div class="justify-self-end">
                 <div class="dropdown">
-                    <button class="btn btn-danger dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Menu do usuário">
-                        Olá <?php echo htmlspecialchars($_SESSION['usuario']); ?>
+                    <button id="logout-button" class="btn btn-danger dropdown-toggle" type="button">
+                        Olá <?= htmlspecialchars($_SESSION['usuario']); ?>
                     </button>
-                    <ul class="dropdown-menu dropdown-menu-end">
-                        <li><a id="logout-button" class="dropdown-item" href="logout.php">Fazer Logout</a></li>
-                    </ul>
                 </div>
             </div>
         <?php } ?>
     </nav>
+    <script src="assets/js/logout.js"></script>
 </header>

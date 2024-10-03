@@ -5,12 +5,12 @@ if (isset($_SESSION['usuario-autenticado']) && $_SESSION['usuario-autenticado'] 
     header('Location: home.php');
     exit();
 }
-require_once('includes/head.php');
+require_once('components/head.php');
 ?>
 
 <body>
     <?php
-    include_once('includes/header.php');
+    include_once('components/header.php');
     ?>
     <main class="main">
         <img class="img" src="assets/img/online-suport-il.png" alt="ilustração suporte online">

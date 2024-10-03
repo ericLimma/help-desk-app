@@ -1,4 +1,5 @@
 // Função para criar e mostrar o modal
+
 function criarModal() {
         let modal = document.createElement('div');
         modal.id = 'logout-modal';
